@@ -1,1 +1,4 @@
-com\viplav\s3\S3Methodology.class
+com\viplav\beans\PersonRequest.class
+com\viplav\beans\PersonResponse.class
+com\viplav\lambda\SavePersonHandler.class
+com\viplav\lambda\S3Methodology.class

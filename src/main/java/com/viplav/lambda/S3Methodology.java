@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.viplav.s3;
+package com.viplav.lambda;
 
 import java.util.Map;
 
