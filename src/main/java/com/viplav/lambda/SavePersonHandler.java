@@ -46,7 +46,8 @@ public class SavePersonHandler implements RequestHandler<PersonRequest, PersonRe
 	@SuppressWarnings("deprecation")
 	private void initDynamoDbClient() {
 		AmazonDynamoDBClient client =  (AmazonDynamoDBClient) AmazonDynamoDBClientBuilder.defaultClient();
-        client.setRegion(Region.getRegion(REGION));
+		
+//        client.setRegion(Region.getRegion(REGION));
         this.dynamoDb = new DynamoDB(client);
 
 		
